@@ -55,6 +55,7 @@ El proyecto cumple con los criterios de programación estructurada en C y se mod
 - Herramienta `make` (opcional para compilación automatizada).
 
 ### Ejecución en Linux/macOS
+```bash```
 ./simulador_artemis
 
 ### Ejecución en Windows
@@ -68,10 +69,10 @@ gcc -Wall -Wextra -std=c99 main.c artemis.c validaciones.c -o simulador_artemis 
 
 ### Compilación Automática (Recomendada)
 Para compilar todos los módulos y generar el ejecutable principal:
-```bash
+
 make
 
-e) Registro Detallado del Uso de Inteligencia Artificial
+## e) Registro Detallado del Uso de Inteligencia Artificial
 - Herramientas Consultadas: Gemini / ChatGPT
 - Tareas Específicas Asistidas:
   1. Depuración de Entradas por Consola: Consultas sobre el tratamiento de desbordamientos de buffer en scanf() y el uso de getchar() dentro de validaciones.c.
@@ -82,3 +83,4 @@ e) Registro Detallado del Uso de Inteligencia Artificial
   - "Escribe un Makefile genérico en C para compilar main.c, artemis.c y validaciones.c usando gcc con flags -Wall y -lm.
 - "Validación y Adaptación Humana:
   El código sugerido por la IA fue analizado, adaptado y refactorizado por los integrantes del grupo para asegurar el cumplimiento del estándar C99, el paso estricto de estructuras mediante punteros const y la modularización en archivos .c y .h.
+
