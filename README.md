@@ -71,4 +71,14 @@ Para compilar todos los módulos y generar el ejecutable principal:
 ```bash
 make
 
-
+e) Registro Detallado del Uso de Inteligencia Artificial
+- Herramientas Consultadas: Gemini / ChatGPT
+- Tareas Específicas Asistidas:
+  1. Depuración de Entradas por Consola: Consultas sobre el tratamiento de desbordamientos de buffer en scanf() y el uso de getchar() dentro de validaciones.c.
+  2. Estructura del Makefile: Asistencia en la sintaxis de reglas implícitas y enlace de la librería matemática -lm.
+  3. Verificación Físico-Matemática: Validación de las fórmulas analíticas para el cálculo del período orbital $T$ y aceleración centrípeta $a_c$.
+- Prompts Utilizados:
+  - "¿Cómo limpiar el buffer de entrada stdin en C si el usuario ingresa una letra en lugar de un double?"
+  - "Escribe un Makefile genérico en C para compilar main.c, artemis.c y validaciones.c usando gcc con flags -Wall y -lm.
+- "Validación y Adaptación Humana:
+  El código sugerido por la IA fue analizado, adaptado y refactorizado por los integrantes del grupo para asegurar el cumplimiento del estándar C99, el paso estricto de estructuras mediante punteros const y la modularización en archivos .c y .h.
