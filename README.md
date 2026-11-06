@@ -55,7 +55,7 @@ El proyecto cumple con los criterios de programación estructurada en C y se mod
 - Herramienta `make` (opcional para compilación automatizada).
 
 ### Ejecución en Linux/macOS
-```bash```
+```bash
 ./simulador_artemis
 
 ### Ejecución en Windows
@@ -71,7 +71,7 @@ gcc -Wall -Wextra -std=c99 main.c artemis.c validaciones.c -o simulador_artemis 
 Para compilar todos los módulos y generar el ejecutable principal:
 
 make
-
+```
 ## e) Registro Detallado del Uso de Inteligencia Artificial
 - Herramientas Consultadas: Gemini / ChatGPT
 - Tareas Específicas Asistidas:
